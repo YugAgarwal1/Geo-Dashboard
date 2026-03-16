@@ -1,10 +1,10 @@
-# 🌍 Geopolitical Intelligence Dashboard
+# Geopolitical Intelligence Dashboard
 
 A real-time geopolitical intelligence platform that analyzes global tensions, news events, and country-specific threat assessments using advanced AI and machine learning.
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Version](https://img.shields.io/badge/Version-1.0.0-orange) ![Python](https://img.shields.io/badge/Python-3.11+-blue) ![React](https://img.shields.io/badge/React-18+-blue)
 
-## 🚀 Features
+## Features
 
 ### **Core Intelligence**
 - **Real-time Global Tension Mapping**: Interactive world map with live tension scores
@@ -24,7 +24,7 @@ A real-time geopolitical intelligence platform that analyzes global tensions, ne
 - **Category Breakdown**: Threat analysis by sector
 - **Historical Trends**: 60-day tension evolution tracking
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### **Frontend (React)**
 - **React 18**: Modern component-based architecture
@@ -44,9 +44,9 @@ A real-time geopolitical intelligence platform that analyzes global tensions, ne
 - **Category Classification**: Automatic threat categorization
 - **Conflict Detection**: Bilateral tension analysis
 
-## ⚡ Quick Start
+## Quick Start
 
-### **🐳 Docker (5 Minutes)**
+### **Docker (5 Minutes)**
 ```bash
 # 1. Clone the repository
 git clone <repository-url>
@@ -65,7 +65,7 @@ docker-compose up --build
 # API Docs: http://localhost:8000/docs
 ```
 
-### **🚀 Automated Setup**
+### **Automated Setup**
 ```bash
 # Run the setup script
 chmod +x setup.sh
@@ -74,14 +74,14 @@ chmod +x setup.sh
 # Follow the prompts and visit http://localhost:3000
 ```
 
-### **📊 What You'll See**
-- 🗺️ Interactive world map with real-time tensions
-- 📈 Live analytics and trend charts
-- 🎯 Top tension zones ranked by threat level
-- 📰 Real-time news with AI analysis
-- 🌍 Country-specific intelligence reports
+### **What You'll See**
+- Interactive world map with real-time tensions
+- Live analytics and trend charts
+- Top tension zones ranked by threat level
+- Real-time news with AI analysis
+- Country-specific intelligence reports
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### **Prerequisites**
 - Python 3.9+
@@ -123,7 +123,7 @@ PORT=8000
 ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 ```
 
-## 🔑 API Keys Required
+##  API Keys Required
 
 ### **NewsData API**
 1. Sign up at [NewsData.io](https://newsdata.io/)
@@ -134,7 +134,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 - Free public API (no key required)
 - Real-time global event data
 
-## 📊 API Endpoints
+##  API Endpoints
 
 ### **Core Endpoints**
 - `GET /` - Main dashboard data (tensions + news)
@@ -149,7 +149,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 - `GET /news/geopolitics` - Geopolitical news
 - `GET /news/markets` - Market and economic news
 
-## 🎯 Key Features
+##  Key Features
 
 ### **Tension Scoring System**
 - **0-19**: Minimal Risk
@@ -169,7 +169,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 - **Responsive Design**: Mobile-friendly interface
 - **Dark Theme**: Professional intelligence dashboard aesthetic
 
-## 🔒 Security Features
+##  Security Features
 
 - **Environment Variables**: All API keys secured
 - **CORS Protection**: Configurable allowed origins
@@ -177,7 +177,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 - **Rate Limiting**: Built-in request throttling
 - **No Hardcoded Secrets**: Secure configuration management
 
-## 📈 Performance
+##  Performance
 
 - **Backend**: FastAPI with async request handling
 - **Frontend**: React with optimized re-renders
@@ -185,7 +185,7 @@ ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 - **Data Compression**: Optimized API responses
 - **Lazy Loading**: Component-based code splitting
 
-## 🧪 Development
+##  Development
 
 ### **Running Tests**
 ```bash
@@ -204,7 +204,7 @@ npm test
 - **Prettier**: Code formatting
 - **TypeScript**: Type safety (frontend)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Projects/
@@ -226,7 +226,7 @@ Projects/
 └── README.md           # This file
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### **Docker Deployment**
 ```bash
@@ -240,7 +240,7 @@ docker-compose up --build
 - Set up monitoring and logging
 - Use production-grade secrets management
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -252,14 +252,14 @@ docker-compose up --build
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 For issues and questions:
 - Check the [Issues](https://github.com/your-repo/issues) page
 - Review the documentation
 - Contact the development team
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
 - **Real-time WebSocket Updates**: Live data streaming
 - **Mobile App**: React Native application
