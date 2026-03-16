@@ -2,6 +2,8 @@
 
 A real-time geopolitical intelligence platform that analyzes global tensions, news events, and country-specific threat assessments using advanced AI and machine learning.
 
+![Dashboard Preview](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Version](https://img.shields.io/badge/Version-1.0.0-orange) ![Python](https://img.shields.io/badge/Python-3.11+-blue) ![React](https://img.shields.io/badge/React-18+-blue)
+
 ## 🚀 Features
 
 ### **Core Intelligence**
@@ -41,6 +43,43 @@ A real-time geopolitical intelligence platform that analyzes global tensions, ne
 - **Tension Calculation**: Multi-factor threat assessment
 - **Category Classification**: Automatic threat categorization
 - **Conflict Detection**: Bilateral tension analysis
+
+## ⚡ Quick Start
+
+### **🐳 Docker (5 Minutes)**
+```bash
+# 1. Clone the repository
+git clone <repository-url>
+cd geopolitical-dashboard
+
+# 2. Setup environment
+cp geo-backend/.env.example geo-backend/.env
+# Edit geo-backend/.env with your NewsData API key
+
+# 3. Run with Docker
+docker-compose up --build
+
+# 4. Access the dashboard
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:8000
+# API Docs: http://localhost:8000/docs
+```
+
+### **🚀 Automated Setup**
+```bash
+# Run the setup script
+chmod +x setup.sh
+./setup.sh
+
+# Follow the prompts and visit http://localhost:3000
+```
+
+### **📊 What You'll See**
+- 🗺️ Interactive world map with real-time tensions
+- 📈 Live analytics and trend charts
+- 🎯 Top tension zones ranked by threat level
+- 📰 Real-time news with AI analysis
+- 🌍 Country-specific intelligence reports
 
 ## 📦 Installation & Setup
 
